@@ -1,0 +1,34 @@
+html{
+	height: 100%;
+}
+body{
+	background-image:url(../img/fondos/verde.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+	margin:0px;
+}
+
+
+.valign-wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.valign-wrapper .valign {
+    display: block;
+}   
+
+label{
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+

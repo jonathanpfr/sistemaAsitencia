@@ -1,0 +1,35 @@
+#myTable_wrapper .row{
+	margin-bottom:20px;
+}
+
+#myTable_length{
+	float:left;
+}
+
+#myTable_filter{
+	float:right;
+}
+
+#myTable_info{
+	float:left;
+}
+
+#myTable_paginate{
+	float:right;
+}
+
+#myTable_paginate .pagination{
+	margin:0px;
+}
+
+.activo{
+	color:#01579b;
+}
+
+.inactivo{
+	 color:#d32f2f;
+}
+
+.table{
+	margin-bottom: 0;
+}

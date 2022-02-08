@@ -1,0 +1,89 @@
+html{
+	height: 100%;
+	margin:0;
+}
+
+body{
+	height: 100%;
+	width:100%;
+	margin:0;
+}
+
+body .navbar{
+	border-radius: 0;
+}
+
+.nav>li>a{
+	color: white;
+}
+
+.nav .open>a, .nav .open>a:focus{
+	color:#01579b;
+}
+
+.nav .open:hover>a{
+	color:#009b3a;
+}
+
+.nav-tabs>li>a{
+    color: white;
+    background-color: #009b3a;
+    transition: 1s ease;
+    -moz-transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+
+.nav-tabs>li>a:hover{
+  color:#009b3a;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  color:#009b3a;
+  background: white;
+}
+
+.dropdown .dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #009b3a;
+    white-space: nowrap;
+    transition: 1s ease;
+    -moz-transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+
+.dropdown .dropdown-menu>li>a:hover{
+    background:#009b3a; 
+    color:white;
+}
+.tab-pane{
+
+  position: absolute;
+   top: 125px;
+   bottom: 0;
+   right: 0;
+   left: 0;
+
+}
+iframe{
+  margin-top: 20px;
+}
+
+#pageTab{
+  margin-top:10px;
+}
+
+.tab-pane{
+
+  position: absolute;
+   top: 125px;
+   bottom: 0;
+   right: 0;
+   left: 0;
+
+}

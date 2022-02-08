@@ -1,0 +1,107 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+.divider{
+  background: black;
+  height: 30px;
+  width: 3px;
+  margin-top: 17px;
+}
+
+.btn-cancelar{
+  background-color:#ffc107 !important ;
+  color:white;
+}
+
+.btn-cancelar:hover{
+  color:white;
+}
+
+.background-thead{
+    background-color: #009b3a;
+}
+
+.background-tbody{
+    background:white;
+}
+
+.divider1{
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 1px;
+    margin: 1.4em 0;
+    border: none;
+    background: #ddd;
+    background-image: -webkit-linear-gradient(left, rgb(255,255,255) 0%, rgb(221,221,221) 10%, rgb(221,221,221) 90%, rgb(255,255,255) 100%);
+    background-image: -o-linear-gradient(left, rgb(255,255,255) 0%, rgb(221,221,221) 10%, rgb(221,221,221) 90%, rgb(255,255,255) 100%);
+    background-image: linear-gradient(to right, rgb(255,255,255) 0%, rgb(221,221,221) 10%, rgb(221,221,221) 90%, rgb(255,255,255) 100%);
+}
+
+
+.modal-header{
+  background-color: #009b3a;
+  color: white;
+}
+
+.table-condensed>thead>tr>th{
+    color: white;
+}
+
+.title{
+	margin-right:10px;
+}
+
+.principal{
+	margin-bottom:30px;
+}
+
+.panel-tabla{
+  background: #f6f6f6;
+  padding: 22px 10px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  margin-top:20px;
+}
+
+.panel-red{
+   background:#d9534f;
+    padding:20px;
+}
+
+.panel-yellow{
+  background:#FF9;
+}
+.sizeinputmin{
+    min-width: 76px;
+}
+
+
+
+tbody tr{
+	text-align: center;
+}
+
+.valign-wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.valign-wrapper .valign {
+    display: block;
+}   
